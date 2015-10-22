@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB9D9DEE1BD8C88D002BF902 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9DED1BD8C88D002BF902 /* main.m */; };
+		BB9D9DF11BD8C88D002BF902 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9DF01BD8C88D002BF902 /* AppDelegate.m */; };
+		BB9D9DF91BD8C88D002BF902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9D9DF81BD8C88D002BF902 /* Assets.xcassets */; };
+		BB9D9DFC1BD8C88D002BF902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9D9DFA1BD8C88D002BF902 /* LaunchScreen.storyboard */; };
+		BB9D9E071BD8C88D002BF902 /* SlidePopNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9E061BD8C88D002BF902 /* SlidePopNavigationControllerTests.m */; };
+		BB9D9E121BD8C88D002BF902 /* SlidePopNavigationControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9E111BD8C88D002BF902 /* SlidePopNavigationControllerUITests.m */; };
+		BB9D9E221BD8C9AA002BF902 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9E201BD8C9AA002BF902 /* FirstViewController.m */; };
+		BB9D9E231BD8C9AA002BF902 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB9D9E211BD8C9AA002BF902 /* FirstViewController.xib */; };
+		BB9D9E271BD8C9BC002BF902 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9E251BD8C9BC002BF902 /* SecondViewController.m */; };
+		BB9D9E2B1BD8CA7B002BF902 /* SlidePopNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9E2A1BD8CA7B002BF902 /* SlidePopNavController.m */; };
+		BB9D9E2E1BD8CCA2002BF902 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9E2D1BD8CCA2002BF902 /* ThirdViewController.m */; };
+		BB9D9E311BD8CCB2002BF902 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9E301BD8CCB2002BF902 /* FourthViewController.m */; };
+		BB9D9E341BD8CCBF002BF902 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D9E331BD8CCBF002BF902 /* FifthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB9D9E031BD8C88D002BF902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB9D9DE11BD8C88C002BF902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9D9DE81BD8C88D002BF902;
+			remoteInfo = SlidePopNavigationController;
+		};
+		BB9D9E0E1BD8C88D002BF902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB9D9DE11BD8C88C002BF902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9D9DE81BD8C88D002BF902;
+			remoteInfo = SlidePopNavigationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB9D9DE91BD8C88D002BF902 /* SlidePopNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidePopNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9D9DED1BD8C88D002BF902 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB9D9DEF1BD8C88D002BF902 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB9D9DF01BD8C88D002BF902 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB9D9DF81BD8C88D002BF902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB9D9DFB1BD8C88D002BF902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB9D9DFD1BD8C88D002BF902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB9D9E021BD8C88D002BF902 /* SlidePopNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidePopNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9D9E061BD8C88D002BF902 /* SlidePopNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidePopNavigationControllerTests.m; sourceTree = "<group>"; };
+		BB9D9E081BD8C88D002BF902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB9D9E0D1BD8C88D002BF902 /* SlidePopNavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidePopNavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9D9E111BD8C88D002BF902 /* SlidePopNavigationControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidePopNavigationControllerUITests.m; sourceTree = "<group>"; };
+		BB9D9E131BD8C88D002BF902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB9D9E1F1BD8C9AA002BF902 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BB9D9E201BD8C9AA002BF902 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BB9D9E211BD8C9AA002BF902 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		BB9D9E241BD8C9BC002BF902 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BB9D9E251BD8C9BC002BF902 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BB9D9E291BD8CA7B002BF902 /* SlidePopNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidePopNavController.h; sourceTree = "<group>"; };
+		BB9D9E2A1BD8CA7B002BF902 /* SlidePopNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidePopNavController.m; sourceTree = "<group>"; };
+		BB9D9E2C1BD8CCA2002BF902 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		BB9D9E2D1BD8CCA2002BF902 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		BB9D9E2F1BD8CCB2002BF902 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		BB9D9E301BD8CCB2002BF902 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		BB9D9E321BD8CCBF002BF902 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		BB9D9E331BD8CCBF002BF902 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB9D9DE61BD8C88D002BF902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9D9DFF1BD8C88D002BF902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9D9E0A1BD8C88D002BF902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB9D9DE01BD8C88C002BF902 = {
+			isa = PBXGroup;
+			children = (
+				BB9D9DEB1BD8C88D002BF902 /* SlidePopNavigationController */,
+				BB9D9E051BD8C88D002BF902 /* SlidePopNavigationControllerTests */,
+				BB9D9E101BD8C88D002BF902 /* SlidePopNavigationControllerUITests */,
+				BB9D9DEA1BD8C88D002BF902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB9D9DEA1BD8C88D002BF902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB9D9DE91BD8C88D002BF902 /* SlidePopNavigationController.app */,
+				BB9D9E021BD8C88D002BF902 /* SlidePopNavigationControllerTests.xctest */,
+				BB9D9E0D1BD8C88D002BF902 /* SlidePopNavigationControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB9D9DEB1BD8C88D002BF902 /* SlidePopNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				BB9D9DEF1BD8C88D002BF902 /* AppDelegate.h */,
+				BB9D9DF01BD8C88D002BF902 /* AppDelegate.m */,
+				BB9D9E291BD8CA7B002BF902 /* SlidePopNavController.h */,
+				BB9D9E2A1BD8CA7B002BF902 /* SlidePopNavController.m */,
+				BB9D9E1F1BD8C9AA002BF902 /* FirstViewController.h */,
+				BB9D9E201BD8C9AA002BF902 /* FirstViewController.m */,
+				BB9D9E211BD8C9AA002BF902 /* FirstViewController.xib */,
+				BB9D9E241BD8C9BC002BF902 /* SecondViewController.h */,
+				BB9D9E251BD8C9BC002BF902 /* SecondViewController.m */,
+				BB9D9E2C1BD8CCA2002BF902 /* ThirdViewController.h */,
+				BB9D9E2D1BD8CCA2002BF902 /* ThirdViewController.m */,
+				BB9D9E2F1BD8CCB2002BF902 /* FourthViewController.h */,
+				BB9D9E301BD8CCB2002BF902 /* FourthViewController.m */,
+				BB9D9E321BD8CCBF002BF902 /* FifthViewController.h */,
+				BB9D9E331BD8CCBF002BF902 /* FifthViewController.m */,
+				BB9D9DF81BD8C88D002BF902 /* Assets.xcassets */,
+				BB9D9DFA1BD8C88D002BF902 /* LaunchScreen.storyboard */,
+				BB9D9DFD1BD8C88D002BF902 /* Info.plist */,
+				BB9D9DEC1BD8C88D002BF902 /* Supporting Files */,
+			);
+			path = SlidePopNavigationController;
+			sourceTree = "<group>";
+		};
+		BB9D9DEC1BD8C88D002BF902 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB9D9DED1BD8C88D002BF902 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB9D9E051BD8C88D002BF902 /* SlidePopNavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB9D9E061BD8C88D002BF902 /* SlidePopNavigationControllerTests.m */,
+				BB9D9E081BD8C88D002BF902 /* Info.plist */,
+			);
+			path = SlidePopNavigationControllerTests;
+			sourceTree = "<group>";
+		};
+		BB9D9E101BD8C88D002BF902 /* SlidePopNavigationControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB9D9E111BD8C88D002BF902 /* SlidePopNavigationControllerUITests.m */,
+				BB9D9E131BD8C88D002BF902 /* Info.plist */,
+			);
+			path = SlidePopNavigationControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB9D9DE81BD8C88D002BF902 /* SlidePopNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9D9E161BD8C88D002BF902 /* Build configuration list for PBXNativeTarget "SlidePopNavigationController" */;
+			buildPhases = (
+				BB9D9DE51BD8C88D002BF902 /* Sources */,
+				BB9D9DE61BD8C88D002BF902 /* Frameworks */,
+				BB9D9DE71BD8C88D002BF902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidePopNavigationController;
+			productName = SlidePopNavigationController;
+			productReference = BB9D9DE91BD8C88D002BF902 /* SlidePopNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB9D9E011BD8C88D002BF902 /* SlidePopNavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9D9E191BD8C88D002BF902 /* Build configuration list for PBXNativeTarget "SlidePopNavigationControllerTests" */;
+			buildPhases = (
+				BB9D9DFE1BD8C88D002BF902 /* Sources */,
+				BB9D9DFF1BD8C88D002BF902 /* Frameworks */,
+				BB9D9E001BD8C88D002BF902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9D9E041BD8C88D002BF902 /* PBXTargetDependency */,
+			);
+			name = SlidePopNavigationControllerTests;
+			productName = SlidePopNavigationControllerTests;
+			productReference = BB9D9E021BD8C88D002BF902 /* SlidePopNavigationControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB9D9E0C1BD8C88D002BF902 /* SlidePopNavigationControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9D9E1C1BD8C88D002BF902 /* Build configuration list for PBXNativeTarget "SlidePopNavigationControllerUITests" */;
+			buildPhases = (
+				BB9D9E091BD8C88D002BF902 /* Sources */,
+				BB9D9E0A1BD8C88D002BF902 /* Frameworks */,
+				BB9D9E0B1BD8C88D002BF902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9D9E0F1BD8C88D002BF902 /* PBXTargetDependency */,
+			);
+			name = SlidePopNavigationControllerUITests;
+			productName = SlidePopNavigationControllerUITests;
+			productReference = BB9D9E0D1BD8C88D002BF902 /* SlidePopNavigationControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB9D9DE11BD8C88C002BF902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = stago_yp;
+				TargetAttributes = {
+					BB9D9DE81BD8C88D002BF902 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BB9D9E011BD8C88D002BF902 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BB9D9DE81BD8C88D002BF902;
+					};
+					BB9D9E0C1BD8C88D002BF902 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BB9D9DE81BD8C88D002BF902;
+					};
+				};
+			};
+			buildConfigurationList = BB9D9DE41BD8C88C002BF902 /* Build configuration list for PBXProject "SlidePopNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB9D9DE01BD8C88C002BF902;
+			productRefGroup = BB9D9DEA1BD8C88D002BF902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB9D9DE81BD8C88D002BF902 /* SlidePopNavigationController */,
+				BB9D9E011BD8C88D002BF902 /* SlidePopNavigationControllerTests */,
+				BB9D9E0C1BD8C88D002BF902 /* SlidePopNavigationControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB9D9DE71BD8C88D002BF902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9D9DFC1BD8C88D002BF902 /* LaunchScreen.storyboard in Resources */,
+				BB9D9E231BD8C9AA002BF902 /* FirstViewController.xib in Resources */,
+				BB9D9DF91BD8C88D002BF902 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9D9E001BD8C88D002BF902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9D9E0B1BD8C88D002BF902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB9D9DE51BD8C88D002BF902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9D9E341BD8CCBF002BF902 /* FifthViewController.m in Sources */,
+				BB9D9E271BD8C9BC002BF902 /* SecondViewController.m in Sources */,
+				BB9D9DF11BD8C88D002BF902 /* AppDelegate.m in Sources */,
+				BB9D9E2E1BD8CCA2002BF902 /* ThirdViewController.m in Sources */,
+				BB9D9E221BD8C9AA002BF902 /* FirstViewController.m in Sources */,
+				BB9D9E2B1BD8CA7B002BF902 /* SlidePopNavController.m in Sources */,
+				BB9D9E311BD8CCB2002BF902 /* FourthViewController.m in Sources */,
+				BB9D9DEE1BD8C88D002BF902 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9D9DFE1BD8C88D002BF902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9D9E071BD8C88D002BF902 /* SlidePopNavigationControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9D9E091BD8C88D002BF902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9D9E121BD8C88D002BF902 /* SlidePopNavigationControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB9D9E041BD8C88D002BF902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB9D9DE81BD8C88D002BF902 /* SlidePopNavigationController */;
+			targetProxy = BB9D9E031BD8C88D002BF902 /* PBXContainerItemProxy */;
+		};
+		BB9D9E0F1BD8C88D002BF902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB9D9DE81BD8C88D002BF902 /* SlidePopNavigationController */;
+			targetProxy = BB9D9E0E1BD8C88D002BF902 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB9D9DFA1BD8C88D002BF902 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB9D9DFB1BD8C88D002BF902 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB9D9E141BD8C88D002BF902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB9D9E151BD8C88D002BF902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB9D9E171BD8C88D002BF902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlidePopNavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elinklaw.SlidePopNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB9D9E181BD8C88D002BF902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlidePopNavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elinklaw.SlidePopNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB9D9E1A1BD8C88D002BF902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlidePopNavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elinklaw.SlidePopNavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlidePopNavigationController.app/SlidePopNavigationController";
+			};
+			name = Debug;
+		};
+		BB9D9E1B1BD8C88D002BF902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlidePopNavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elinklaw.SlidePopNavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlidePopNavigationController.app/SlidePopNavigationController";
+			};
+			name = Release;
+		};
+		BB9D9E1D1BD8C88D002BF902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlidePopNavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elinklaw.SlidePopNavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlidePopNavigationController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BB9D9E1E1BD8C88D002BF902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlidePopNavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elinklaw.SlidePopNavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlidePopNavigationController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB9D9DE41BD8C88C002BF902 /* Build configuration list for PBXProject "SlidePopNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9D9E141BD8C88D002BF902 /* Debug */,
+				BB9D9E151BD8C88D002BF902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9D9E161BD8C88D002BF902 /* Build configuration list for PBXNativeTarget "SlidePopNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9D9E171BD8C88D002BF902 /* Debug */,
+				BB9D9E181BD8C88D002BF902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB9D9E191BD8C88D002BF902 /* Build configuration list for PBXNativeTarget "SlidePopNavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9D9E1A1BD8C88D002BF902 /* Debug */,
+				BB9D9E1B1BD8C88D002BF902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB9D9E1C1BD8C88D002BF902 /* Build configuration list for PBXNativeTarget "SlidePopNavigationControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9D9E1D1BD8C88D002BF902 /* Debug */,
+				BB9D9E1E1BD8C88D002BF902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB9D9DE11BD8C88C002BF902 /* Project object */;
+}
